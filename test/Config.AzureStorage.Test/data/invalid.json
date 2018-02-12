@@ -1,0 +1,7 @@
+{
+    "name": "test",
+    "address": {
+        "street": "Something street",
+        "zipcode": "12345"
+    }
+/* Missing a right brace here*/

@@ -1,0 +1,8 @@
+/* Comments */
+{ /* Comments */
+    "name": /* Comments */ "test",
+    "address": {
+        "street": "Something street", /* Comments */
+        "zipcode": "12345"
+    }
+}

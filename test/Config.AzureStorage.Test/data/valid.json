@@ -1,0 +1,8 @@
+{
+    "firstname": "test",
+    "test.last.name": "last.name",
+        "residential.address": {
+            "street.name": "Something street",
+            "zipcode": "12345"
+        }
+}

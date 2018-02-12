@@ -1,0 +1,56 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5EA2B1E0-0CA7-4957-820B-C116B6934E80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Config.AzureStorage", "src\Config.AzureStorage\Config.AzureStorage.csproj", "{DBB3407C-8B8D-4588-936F-8F6E748E5D3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{43F2F260-55CF-4210-92ED-CF15F8079797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Config.AzureStorage.Test", "test\Config.AzureStorage.Test\Config.AzureStorage.Test.csproj", "{070CD23B-C7AD-4E14-B381-94344414438C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBB3407C-8B8D-4588-936F-8F6E748E5D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB3407C-8B8D-4588-936F-8F6E748E5D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB3407C-8B8D-4588-936F-8F6E748E5D3A}.Debug|x64.ActiveCfg = Debug|x64
+		{DBB3407C-8B8D-4588-936F-8F6E748E5D3A}.Debug|x64.Build.0 = Debug|x64
+		{DBB3407C-8B8D-4588-936F-8F6E748E5D3A}.Debug|x86.ActiveCfg = Debug|x86
+		{DBB3407C-8B8D-4588-936F-8F6E748E5D3A}.Debug|x86.Build.0 = Debug|x86
+		{DBB3407C-8B8D-4588-936F-8F6E748E5D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB3407C-8B8D-4588-936F-8F6E748E5D3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB3407C-8B8D-4588-936F-8F6E748E5D3A}.Release|x64.ActiveCfg = Release|x64
+		{DBB3407C-8B8D-4588-936F-8F6E748E5D3A}.Release|x64.Build.0 = Release|x64
+		{DBB3407C-8B8D-4588-936F-8F6E748E5D3A}.Release|x86.ActiveCfg = Release|x86
+		{DBB3407C-8B8D-4588-936F-8F6E748E5D3A}.Release|x86.Build.0 = Release|x86
+		{070CD23B-C7AD-4E14-B381-94344414438C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070CD23B-C7AD-4E14-B381-94344414438C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070CD23B-C7AD-4E14-B381-94344414438C}.Debug|x64.ActiveCfg = Debug|x64
+		{070CD23B-C7AD-4E14-B381-94344414438C}.Debug|x64.Build.0 = Debug|x64
+		{070CD23B-C7AD-4E14-B381-94344414438C}.Debug|x86.ActiveCfg = Debug|x86
+		{070CD23B-C7AD-4E14-B381-94344414438C}.Debug|x86.Build.0 = Debug|x86
+		{070CD23B-C7AD-4E14-B381-94344414438C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070CD23B-C7AD-4E14-B381-94344414438C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070CD23B-C7AD-4E14-B381-94344414438C}.Release|x64.ActiveCfg = Release|x64
+		{070CD23B-C7AD-4E14-B381-94344414438C}.Release|x64.Build.0 = Release|x64
+		{070CD23B-C7AD-4E14-B381-94344414438C}.Release|x86.ActiveCfg = Release|x86
+		{070CD23B-C7AD-4E14-B381-94344414438C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DBB3407C-8B8D-4588-936F-8F6E748E5D3A} = {5EA2B1E0-0CA7-4957-820B-C116B6934E80}
+		{070CD23B-C7AD-4E14-B381-94344414438C} = {43F2F260-55CF-4210-92ED-CF15F8079797}
+	EndGlobalSection
+EndGlobal
